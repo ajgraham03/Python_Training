@@ -11,7 +11,7 @@ class Circle(Shape):
         self.radius = radius
 
     def Area(self):
-        print(f"The area of the Circle is {self.radius*3.14}")
+        print(f"The area of the Circle is {self.radius*math.pi}")
         
 
 class Rectangle(Shape):
